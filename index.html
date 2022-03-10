@@ -12,25 +12,15 @@
   </header>
   <form id="base-essen">
     <h4>Search Location For Your Weather Report</h4>
-    <label>Latitude:</label>
-    <input type="numbers" id="latInput">
-    <button id="latSubmit" type="submit">submit</button>
-
-    <!-- First idea <label for="latitude">Latitude: </label> 
-    <input type="text" name="latitude" id="lat"/>
-    <button class="lat-input" type="submit">Enter</button> -->
-    
-    <label>Longitude:</label>
-    <input type="numbers" id="lonInput">
-    <button id="lonSubmit" type="submit">submit</button>
-
-    <!-- First idea <label for="longitude">Longitude: </label> 
-    <input type="text" name="longitude" id="lon"/>
-    <button class="lon-input" type="submit">Enter</button> -->
-
-    <p> </p>
+    <label><em ><strong>City:</strong></em></label>
+    <input type="text" id="cityInput" placeholder="City">
+    <button id="citySubmit">submit</button>
+ </form>
+    <p id="ps"> </p>
     <br>
-
+    <ul id="comments-list" class="comments">
+      <li>Example</li>
+    </ul>
     <form id="comment-form" class="comment-form">
       <input
         class="comment-input"
@@ -39,15 +29,7 @@
         id="comment"
         placeholder="Add a comment..."
       />
-      <button class="comment-button" type="submit">Enter</button>
+      <input class="comment-button" type="submit" />
     </form>
-
-    <!-- Old comment code... <label for="comment">Comment: </label>
-    <input type="text" name="comment" id="comment"></input>
-    <button class="new-comment" type="submit">Enter</button> -->
-
-    <!-- maybe idk... <label for="rating">Rating: </label>
-    <input type="number" name="rating" id="new-rating" /> -->
-  </form>
 </body>
-</html>
+</html> 
