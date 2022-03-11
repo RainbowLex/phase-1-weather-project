@@ -25,3 +25,8 @@ citySub.addEventListener('click', (e)=> {
   grabWeather(city.value)
   formGrab.reset()
 })
+
+function displayData(object){
+  let temp = `${object.main.temp}°F`
+  grabPs.innerText = object.name + ": " + object.weather[0].main + " " + temp
+}
