@@ -43,3 +43,12 @@ const theList = document.querySelector("#comments-list");
 theList.innerHTML = " ";
 const textSpace = document.querySelector("#comment");
 const commentList = document.querySelector("#comment-form");
+commentList.addEventListener("submit", function (event) {
+  event.preventDefault();
+  let post = document.createElement("li");
+  post.innerText = textSpace.value;
+  post.style.listStyleType = 'none';
+  commentList.append(post);
+  post.addEventListener('click', () => post.remove())
+  commentList.reset();
+});
