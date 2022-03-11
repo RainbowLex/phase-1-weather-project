@@ -82,3 +82,13 @@
   #citySubmit:active {
     color: blue;
   }
+
+  .comment-button {
+    font-family: monospace;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: darkgreen;
+    cursor: pointer;
+    transition: color 100ms;
+  }
