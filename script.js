@@ -27,7 +27,7 @@ citySub.addEventListener('click', (e)=> {
 })
 
 function displayData(object){ 
-  let temp = `${object.main.temp}°`
+  let temp = `${object.main.temp}°F`
   grabPs.innerText = object.name + ": " + object.weather[0].main + " " + temp   
 }
 const grabPs = document.getElementById('ps')
@@ -47,7 +47,7 @@ commentList.addEventListener("submit", function (event) {
   let post = document.createElement("li");
   post.innerText = textSpace.value;
   post.style.listStyleType = 'none';
-  theList.append(post);
+  commentList.append(post);
   post.addEventListener('click', () => post.remove())
   commentList.reset();
 });

@@ -4,10 +4,16 @@
     box-sizing: border-box;
   }
   
+  html, body {
+    margin: 0;
+    height: 0%;
+  }
+
   body {
     padding: 20px;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.2)), url('https://c8.alamy.com/comp/2BGGXN9/weather-forecast-concept-background-variety-weather-conditions-and-seasons-bright-sun-and-blue-sky-dark-stormy-sky-with-lightnings-2BGGXN9.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.2)), url('https://source.unsplash.com/featured/?landscape');
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.2)), url('https://c8.alamy.com/comp/2BGGXN9/weather-forecast-concept-background-variety-weather-conditions-and-seasons-bright-sun-and-blue-sky-dark-stormy-sky-with-lightnings-2BGGXN9.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -21,41 +27,45 @@
   }
   
   h4 {
+    font-family:monospace;
     margin-left: 0;
     padding-left: 10px;
-    font-size: 1.0rem;
+    font-size: 1.3rem;
     color: black;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  .comments {
+  #comments-list {
     list-style-type: none;
     margin-right: 20px;
-    padding-left: 10px;
+    padding-left: 1100px;
     font-size: 30px;
     text-align: center;
   }
   
   .comment-form {
-    text-align: center;
     width: 300px;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 204, 255, 0.678));
     display: block;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-right: 450px;
     border-radius: 10px;
-    padding-top: 100px
+    
+    /* text-align: center;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    padding-bottom: 200px;
+     */
   }
   
   .comment-input {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   
-  .comment-button {
+  #citySubmit {
+    font-family: monospace;
     border: none;
     font-size: 0.8rem;
     font-weight: 600;
@@ -63,7 +73,26 @@
     cursor: pointer;
     transition: color 100ms;
   }
-  
+
+ #citySubmit:hover {
+    font-family: monospace;
+    color: red;
+}
+
+#citySubmit:active {
+  color: blue;
+}
+
+  .comment-button {
+    font-family: monospace;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: darkgreen;
+    cursor: pointer;
+    transition: color 100ms;
+  }
+
   .comment-button:hover {
     color: red;
   }
@@ -73,35 +102,48 @@
   }
 
   .container {
+    font-family: monospace;
     width: 300px;
-    background-image: linear-gradient(to bottom right, red, yellow);
-    /* background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 255, 200, 0.767)); */
-    /* background-color: #fff; */
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 204, 255, 0.678));
     display: block;
     margin: 0 auto;
-    margin-top: 240px;
+    margin-top: 70px;
     border-radius: 10px;
-    padding-bottom: 100px
+    padding-bottom: 50px;
   }
 
   h1 {
+    font-family:monospace; 
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
     margin: 0 auto;
-    font-size: 3em;
+    font-size: 4em;
   }
 
   #cityInput {
+    font-family: monospace;
     font-size: 0.9em;
     margin-top: 20px;
   }
 
   #ps {
+    font-family: monospace;
     padding: 0;
     margin: 0;
     color: black;
     font-size: 4em;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 30px;
   }
+
+  h2 {
+    font-family:monospace;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 1.3rem;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }  
