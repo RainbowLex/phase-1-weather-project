@@ -5,3 +5,10 @@ let latitude = '39.739878';
 let api = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=daily&units=imperial&appid=${key}`
 //https://api.openweathermap.org/data/2.5/weather?q=${input}&units=imperial&appid=${myKey}
 //CITY api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+document.addEventListener('DOMContentLoaded', init)
+    function init(){
+    fetch(api)
+        .then(res => res.json())
+        .then(data => renderThis(data))
+    }
