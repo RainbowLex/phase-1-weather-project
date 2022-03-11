@@ -63,7 +63,7 @@
     border: none;
     font-size: 0.9rem;
   } 
-  
+
   #citySubmit {
     font-family: monospace;
     border: none;
@@ -72,4 +72,13 @@
     color: darkgreen;
     cursor: pointer;
     transition: color 100ms;
+  }
+
+  #citySubmit:hover {
+    font-family: monospace;
+    color: red;
+}
+ 
+  #citySubmit:active {
+    color: blue;
   }
