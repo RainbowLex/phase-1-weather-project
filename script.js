@@ -20,3 +20,8 @@ document.addEventListener('DOMContentLoaded', init)
 const formGrab = document.getElementById("base-essen")
 const city = document.getElementById('cityInput')
 const citySub =document.querySelector('#citySubmit')
+citySub.addEventListener('click', (e)=> {
+  e.preventDefault();
+  grabWeather(city.value)
+  formGrab.reset()
+})
