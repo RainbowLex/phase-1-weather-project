@@ -62,4 +62,14 @@
     margin-bottom: 10px;
     border: none;
     font-size: 0.9rem;
+  } 
+  
+  #citySubmit {
+    font-family: monospace;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: darkgreen;
+    cursor: pointer;
+    transition: color 100ms;
   }
