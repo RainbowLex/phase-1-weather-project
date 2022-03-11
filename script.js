@@ -39,3 +39,7 @@ function grabWeather(city){
     .then(data => displayData(data))
 }
  
+const theList = document.querySelector("#comments-list");
+theList.innerHTML = " ";
+const textSpace = document.querySelector("#comment");
+const commentList = document.querySelector("#comment-form");
