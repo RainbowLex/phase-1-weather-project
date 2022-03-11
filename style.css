@@ -1,7 +1,4 @@
-/* body {
-    background: darkcyan;
-  } */
-  /*  * {
+   * {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -10,30 +7,9 @@
   body {
     padding: 20px;
     text-align: center;
-    background-color: #fafafa;
-  }
-  
-  .logo {
-    margin-bottom: 20px;
-  }
-  
-  .image-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .image-card {
-    width: 300px;
-    border: 1px solid #00000020;
-    border-radius: 2px;
-    text-align: left;
-    background-color: white;
-  }
-  
-  .image {
-    width: 300px;
-     border: 1px solid black; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0.2)), url('https://c8.alamy.com/comp/2BGGXN9/weather-forecast-concept-background-variety-weather-conditions-and-seasons-bright-sun-and-blue-sky-dark-stormy-sky-with-lightnings-2BGGXN9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .title {
@@ -41,63 +17,38 @@
     padding: 15px 10px;
     font-size: 0.9rem;
     font-weight: 600;
-    color: #000000dd;
+    color: black;
   }
   
-  .likes-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;
+  h4 {
+    margin-left: 0;
+    padding-left: 10px;
+    font-size: 0.85rem;
+    color: black;
   }
-  
-  .likes {
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
-  
-  .like-button {
-    color: rgb(255, 127, 80);
-    font-size: 1.5rem;
-    border: none;
-    background: none;
-    transition: color 300ms;
-    cursor: pointer;
-  }
-  
-  .like-button:hover {
-    color: rgb(241, 71, 19);
-  }
-  
-  .like-button:active {
-    color: rgb(253, 159, 124);
-  }
-  
-  .like-button:focus {
-    outline: none;
-  }
-  
+
   .comments {
     list-style-type: none;
     margin-left: 0;
     padding-left: 10px;
-    font-size: 0.85rem;
+    font-size: 30px;
+    width: 185%;
   }
   
-  .comments li {
+  /* .comments li {
     margin: 2px 0;
     letter-spacing: 0.2px;
-  }
+    font-size: 100px;
+  } */
   
   .comment-form {
-    width: 100%;
+    width: 185%;
     border-top: 1px solid #00000020;
     padding: 10px;
     margin-top: 10px;
   }
   
   .comment-input {
-    width: 83%;
     border: none;
     font-size: 0.8rem;
   }
@@ -110,19 +61,42 @@
     border: none;
     font-size: 0.8rem;
     font-weight: 600;
-    color: rgb(92, 114, 238);
+    color: darkgreen;
     cursor: pointer;
-    transition: color 300ms;
+    transition: color 100ms;
   }
   
   .comment-button:hover {
-    color: rgb(37, 68, 245);
+    color: red;
   }
   
   .comment-button:active {
-    color: rgb(127, 146, 250);
+    color: blue;
   }
   
   .comment-button:focus {
     outline: none;
-  } */
+  }
+
+  .container {
+    width: 300px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 280px;
+    border-radius: 10px;
+    padding-bottom: 300px
+  }
+
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.6em;
+  }
+
+  #ps {
+
+    color: red;
+  }
