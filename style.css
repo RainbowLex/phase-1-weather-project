@@ -17,3 +17,21 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .title {
+    text-align: left;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+  }
+
+  h4 {
+    font-family:monospace;
+    margin-left: 0;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
