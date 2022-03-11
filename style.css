@@ -57,3 +57,9 @@
     padding-bottom: 200px;
      */
   }
+
+  .comment-input {
+    margin-bottom: 10px;
+    border: none;
+    font-size: 0.9rem;
+  }
