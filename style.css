@@ -92,3 +92,11 @@
     cursor: pointer;
     transition: color 100ms;
   }
+
+  .comment-button:hover {
+    color: red;
+  }
+ 
+  .comment-button:active {
+    color: blue;
+  }
