@@ -12,3 +12,8 @@ document.addEventListener('DOMContentLoaded', init)
         .then(res => res.json())
         .then(data => renderThis(data))
     }
+
+    function renderThis(object){
+      console.log(object)
+  }
+  
