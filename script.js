@@ -30,3 +30,12 @@ function displayData(object){
   let temp = `${object.main.temp}°F`
   grabPs.innerText = object.name + ": " + object.weather[0].main + " " + temp
 }
+
+const grabPs = document.getElementById('ps')
+ 
+function grabWeather(city){
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${key}`)
+    .then(res => res.json())
+    .then(data => displayData(data))
+}
+ 
