@@ -16,4 +16,7 @@ document.addEventListener('DOMContentLoaded', init)
     function renderThis(object){
       console.log(object)
   }
-  
+
+const formGrab = document.getElementById("base-essen")
+const city = document.getElementById('cityInput')
+const citySub =document.querySelector('#citySubmit')
