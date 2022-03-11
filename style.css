@@ -35,3 +35,25 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  #comments-list {
+    list-style-type: none;
+    margin-right: 20px;
+    padding-left: 1100px;
+    font-size: 30px;
+    text-align: center;
+  }
+ 
+  .comment-form {
+    width: 300px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 204, 255, 0.678));
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+    /* text-align: center;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    padding-bottom: 200px;
+     */
+  }
